@@ -1,59 +1,70 @@
-/* Basic CSS Styling */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 0;
-}
-
-h1 {
-    color: #333;
-    text-align: center;
-    margin-top: 20px;
-}
-
-p {
-    color: #555;
-    line-height: 1.6;
-    margin: 20px;
-}
-
-a {
-    color: #007BFF;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-button {
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-button:hover {
-    background-color: #0056b3;
-}
-<link rel="stylesheet" href="styles.css">
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basic CSS Example</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project Overview - DAA Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Welcome to My Website</h1>
-    <p>This is a paragraph styled with basic CSS.</p>
-    <a href="#">This is a link</a>
-    <br><br>
-    <button>Click Me</button>
+    <!-- Header Section -->
+    <header>
+        <div class="navbar">
+            <h1 class="logo">DAA Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>This is where you can introduce yourself and give a brief description of your background, experience, and expertise.</p>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-card">
+                <h3>Project 1 Title</h3>
+                <p>Description of the project. This can include the technologies used, challenges faced, and the results.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project 2 Title</h3>
+                <p>Description of the project. This can include the technologies used, challenges faced, and the results.</p>
+            </div>
+            <!-- Add more project cards as needed -->
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>You can reach me through the following methods:</p>
+            <ul>
+                <li>Email: your-email@example.com</li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile">your-linkedin-profile</a></li>
+                <li>GitHub: <a href="https://github.com/yourusername">your-github-profile</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Your Name. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
+
+
+
+
 
