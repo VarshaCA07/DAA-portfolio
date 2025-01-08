@@ -3,49 +3,150 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Team 15 DAA PORTFOLIO</title>
+    <title>DESIGN AND ANALYSIS OF ALGORITHM</title>
     <style>
+        /* General Styles */
         body {
             font-family: Times New Roman;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f9;
+            background-color: #f5f5dc;
             color: #333;
-            text-align: center;
             line-height: 1.6;
         }
 
-        .container {
-            max-width: 800px;
-            margin: 50px auto;
-            padding: 20px;
-        }
-
-        h1 {
-            color: #375F45;
-        }
-
-        a {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 10px 20px;
-            background-color: #5E8C62;
+        /* Header Section */
+        header {
+            background: #654321;
             color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            font-size: 1.2rem;
+            padding: 20px 0;
+            text-align: center;
         }
 
-        a:hover {
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin: 5px 0 20px;
+        }
+
+        /* Navigation */
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        nav a {
+            color: white;
+            background-color: #654321;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        nav a:hover {
+            background-color: #654321;
+        }
+
+        /* Main Content */
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            text-align: left;
+        }
+
+        .container h2 {
+            color: #375F45;
+            margin-bottom: 20px;
+        }
+
+        .container p {
+            font-size: 1.2rem;
+            color: #555;
+        }
+
+        ul {
+            list-style-type: square;
+            padding-left: 40px;
+        }
+
+        /* Footer */
+        footer {
             background-color: #375F45;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
+    <header>
+        <h1>DESIGN AND ANALYSIS OF ALGORITHM</h1>
+        <p>Introduction, topics, and course outcomes</p>
+    </header>
+    <nav>
+        
+    </nav>
     <div class="container">
-        <h1>Welcome to Team 15 DAA PORTFOLIO</h1>
-        <p>Explore topics and projects by visiting the link below:</p>
-        <a href="https://github.com/VarshaCA07/DAA_Portfolio" target="_blank">Visit Website</a>
+        <section id="Introduction">
+            <h2>Introduction</h2>
+            <p>The design and analysis of algorithms is a fundamental area in computer science that focuses on creating efficient and effective methods for solving computational problems. It involves systematically developing algorithms to achieve specific tasks, ensuring they are both correct and optimized for performance.</p>
+        </section>
+        <section id="Topics">
+            <h2>Topics</h2>
+            <ul>
+                <li>n-ary Trees</li>
+                <li>Binary Trees</li>
+                <li>Binary Search Trees</li>
+                <li>2-3 Trees</li>
+                <li>AVL Trees</li>
+                <li>Red-Black Trees</li>
+                <li>Tries</li>
+                <li>Skip Lists</li>
+                <li>Segment Trees</li>
+                <li>Fenwick Trees</li>
+                <li>Graphs (Weighted/Unweighted, Directed/Undirected)</li>
+                <li>Heaps</li>
+                <li>HashMaps</li>
+                <li>Union-Find (Disjoint Set Union)</li>
+                <li>String Matching Algorithms:</li>
+                <ul>
+                    <li>Brute Force</li>
+                    <li>Boyer-Moore</li>
+                    <li>Knuth-Morris-Pratt (KMP)</li>
+                    <li>Rabin-Karp</li>
+                </ul>
+                <li>Graph Algorithms:</li>
+                <ul>
+                    <li>Breadth-First Search (BFS)</li>
+                    <li>Depth-First Search (DFS)</li>
+                    <li>Kruskal’s Algorithm</li>
+                    <li>Dijkstra’s Algorithm</li>
+                    <li>Bellman-Ford Algorithm</li>
+                    <li>Floyd-Warshall Algorithm</li>
+                </ul>
+            </ul>
+        </section>
+        <section id="course-outcomes">
+            <h2>Course Outcomes</h2>
+            <p>
+            <ul>
+                <li>Understanding Algorithm Design: Demonstrate a thorough understanding of fundamental algorithm design strategies such as divide-and-conquer, dynamic programming, and greedy approaches.</li>
+                <li>Complexity Analysis: Analyze and compute the time and space complexities of algorithms using asymptotic notations and critically evaluate algorithm efficiency.</li>
+                <li>Algorithm Development: Design and implement optimized algorithms to solve real-world computational problems effectively.</li>
+            </ul>
+            </p>
+        </section>
     </div>
+    <footer>
+        <p>&copy; 2025. All rights reserved.</p>
+    </footer>
 </body>
 </html>
