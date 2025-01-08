@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Reflections - Design and Analysis of Algorithms</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Lora', serif;
+            background-color: #F5F5DC;
+            color: #4B2E2B;
+            display: flex;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        .nav {
+            width: 200px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 15px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .nav a {
+            color: #4B2E2B;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 1.1rem;
+            padding: 10px;
+            width: 100%;
+            text-align: center;
+            transition: color 0.3s ease;
+        }
+
+        .nav a:hover {
+            color: #A67852;
+        }
+
+        .container {
+            margin-left: 220px;
+            padding: 20px;
+            background-color: #F5F5DC;
+            flex-grow: 1;
+        }
+
+        header {
+            background-color: #4B2E2B;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 2rem;
+            color: #4B2E2B;
+        }
+
+        .card-container {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 40px;
+        }
+
+        .card {
+            background-color: #D6B89C; /* light brown color */
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            width: 250px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card h3 {
+            margin: 10px 0;
+        }
+
+        .card a {
+            background-color: #A67852;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 1rem;
+            transition: background-color 0.3s;
+        }
+
+        .card a:hover {
+            background-color: #4B2E2B;
+        }
+
+        footer {
+            background-color: #4B2E2B;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Left Navigation -->
+<div class="nav">
+    <a href="homepage.html">Home</a>
+    <a href="https://github.com/VarshaCA07/topic.github.io/tree/main">GitHub</a>
+    <a href="bussiness-cases.html">Business Cases</a>
+    <a href="#reflections">Reflections</a>
+</div>
+
+<!-- Main Content Area -->
+<div class="container">
+
+    <!-- Header Section -->
+    <header>
+        <h1>Reflections - Design and Analysis of Algorithms</h1>
+    </header>
+
+    <!-- Reflections Section -->
+    <section id="reflections">
+        <h2 class="section-title">Reflections</h2>
+
+        <!-- Card Container -->
+        <div class="card-container">
+            <!-- Varsha Card -->
+            <div class="card">
+                <h3>Varsha</h3>
+                <a href="Varsha_reflections.html">View Reflections</a>
+            </div>
+
+            <!-- Tanushree Card -->
+            <div class="card">
+                <h3>Tanushree</h3>
+                <a href="Tanushree_reflections.html">View Reflections</a>
+            </div>
+
+            <!-- Mahabal Card -->
+            <div class="card">
+                <h3>Mahabal</h3>
+                <a href="Mahabal_reflections.html">View Reflections</a>
+            </div>
+        </div>
+
+    </section>
+
+</div>
+
+<!-- Footer Section -->
+<footer>
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
